@@ -1,0 +1,28 @@
+import os
+import json
+
+def cabecalho(texto = 'Forja do Ferreiro'):
+    print(f"------------------------------{texto}------------------------------")
+    print()
+
+def clear():
+    os.system('cls' if os.name == 'nt' else 'clear')
+
+def hub():
+    print("Saudações Mestre Armeiro!")
+    print("\nO que deseja fazer?")
+
+    print('''
+
+[1] Vender Equipamento
+[2] Forjar Equipamento
+[3] Aprimorar Equipamento
+[4] Visualizar Arsenal
+          
+         ''') 
+     
+     
+     
+     
+     
+    
